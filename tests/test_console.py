@@ -20,7 +20,7 @@ from models.review import Review
 
 class TestCommand(unittest.TestCase):
     """This is a class that tests the console"""
-    
+
     def setUp(self):
         """This Function empties file.json"""
         FileStorage._FileStorage__objects = {}
